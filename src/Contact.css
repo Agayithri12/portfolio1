@@ -1,0 +1,52 @@
+.contact {
+  padding: 60px 20px;
+  background: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #61dafb;
+  animation: fadeInDown 1s ease;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  animation: fadeIn 1.5s ease;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-links .btn {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.contact-links .btn:hover {
+  background-color: #21a1f1;
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

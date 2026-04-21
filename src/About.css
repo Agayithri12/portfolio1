@@ -1,0 +1,68 @@
+.about {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #282c34;
+  animation: fadeInDown 1s ease;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+  animation: fadeIn 2s ease;
+}
+
+.about-details {
+  text-align: left;
+  max-width: 700px;
+  margin: 30px auto;
+  animation: fadeInUp 1.5s ease;
+}
+
+.about-details h3 {
+  margin-top: 20px;
+  color: #61dafb;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #282c34;
+  color: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.skills-list li:hover {
+  transform: scale(1.05);
+  background: #61dafb;
+  color: #282c34;
+}
+
+/* Simple animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

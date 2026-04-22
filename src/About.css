@@ -17,6 +17,7 @@
   margin: 0 auto 20px auto;
   line-height: 1.6;
   animation: fadeIn 2s ease;
+  text-align: justify;
 }
 
 .about-details {

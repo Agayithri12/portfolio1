@@ -12,7 +12,10 @@ function Home() {
           <h1>Hello, I'm Gayithri</h1>
           <h2>AI & Data Science Undergraduate</h2>
           <p>Passionate about building professional web apps and AI projects.</p>
-          <a href="/resume.pdf" download className="resume-btn">Download Resume</a>
+          <a href="/resume.pdf" download className="resume-btn">
+  Download Resume
+</a>
+
         </div>
       </div>
     </section>

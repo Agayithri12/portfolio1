@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #282c34; /* original dark color */
+  background-color: #282c34;
   padding: 15px 30px;
 }
 
 .logo {
-  color: #61dafb; /* React blue accent */
+  color: #61dafb;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -21,26 +21,40 @@
 .nav-links li a {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.3s ease;
+  transition: color 0.3s;
 }
 
 .nav-links li a:hover {
   color: #61dafb;
 }
 
-.theme-btn {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  border: none;
-  padding: 8px 12px;
-  border-radius: 5px;
+/* Hamburger hidden on desktop */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
   cursor: pointer;
-  font-weight: bold;
-  transition: background 0.3s ease;
 }
 
-.theme-btn:hover {
-  background: var(--accent-color);
-  color: var(--text-color);
+/* Mobile view */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #282c34;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 20px 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
 }

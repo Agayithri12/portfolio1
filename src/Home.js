@@ -14,8 +14,7 @@ function Home() {
           <p>Passionate about building professional web apps and AI projects.</p>
           <a href="/resume.pdf" download className="resume-btn">
   Download Resume
-</a>
-
+          </a>
         </div>
       </div>
     </section>

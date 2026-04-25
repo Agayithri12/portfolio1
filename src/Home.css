@@ -121,20 +121,3 @@
   transform: scale(1.05);
 }
 
-.scroll-down {
-  display: inline-block;
-  margin-top: 30px;
-  font-size: 2rem;
-  color: var(--secondary-color);
-  text-decoration: none;
-  animation: bounce 1.5s infinite;
-}
-
-.scroll-down:hover {
-  color: var(--accent-color);
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(8px); }
-}

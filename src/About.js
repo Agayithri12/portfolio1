@@ -25,13 +25,12 @@ function About() {
 
         <h3>Skills</h3>
         <ul className="skills-list">
-          <li><strong>Programming:</strong> Python, C, SQL</li>
-          <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
-          <li><strong>Machine Learning:</strong> CNN, Deep Learning, NLP</li>
-          <li><strong>Libraries:</strong> TensorFlow, OpenCV, NumPy</li>
-          <li><strong>Databases:</strong> MySQL, MongoDB</li>
-          <li><strong>Core Concepts:</strong> Data Structures, Algorithms</li>
-          <li><strong>Tools:</strong> Git, VS Code, Google Colab</li>
+         <li><strong>Programming:</strong> Python</li>
+         <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React.js, Bootstrap</li>
+         <li><strong>Databases:</strong> SQL, MySQL, MongoDB</li>
+         <li><strong>Machine Learning:</strong> CNN, Deep Learning, NLP</li>
+         <li><strong>Libraries & Frameworks:</strong> TensorFlow, OpenCV, NumPy, Django</li>
+         <li><strong>Tools:</strong> Git, VS Code, Google Colab</li>
         </ul>
       </div>
     </section>
